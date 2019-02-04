@@ -235,56 +235,7 @@ h3 {
     width: 200px;
 }
 
-
-
-/* Media Queries*/
-
-@media only screen and (max-width: 980px) {
-    body {}
-}
-
-
-@media only screen and (max-width: 768px) {
-
-    header {
-        width: 768px;        
-    }
-
-    .nav-left {
-        float: left;
-        height: 15px;
-        margin: 0;
-        text-align: center;
-        height: 50px;
-    }
-
-    .nav-right {
-        float: left;
-        padding-top: 30px;
-        background-color: white;
-        text-align: right;
-        margin-left: 150px;
-    }
-    .aboutme-content {
-        margin: 20px;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        width: 650px;
-        padding: 20px;
-        height: 400px;
-        overflow: hidden;
-
-}
-
-p {
-    width: 560px;
-    border: 0;
-    margin: 0 auto;
-    margin-left: 60px;
-    font-size: 12px;
-    line-height: 20px;
-}
-}
+/* Media Queries 640*************************************************/
 
 @media only screen and (max-width: 640px) {
 
@@ -306,16 +257,16 @@ p {
     .nav-right {
         float: none;
         margin: 0;
-        margin-left: -100px;
         padding: 5px;
         background-color: white;
-        width: 630px;
+        width: 660px;
         text-align: center;
     }
 
     .nav-block {
         width: 100%;
     }
+
 
     .aboutme-content {
         margin: 0;
@@ -356,67 +307,193 @@ p {
     }
 
 
-/* Contact page*/
+    /* Contact page*/
 
-.contact-info {
-    margin: 0;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    width: 200px;
-    padding: 100px;
-    height: 420px;
-    overflow: hidden;
+
+    .contact-info {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 200px;
+        padding: 100px;
+        height: 420px;
+        overflow: hidden;
+    }
+
+    .column {
+        width: 200px;
+
+    }
+
+    #fname,
+    #lname,
+    #message {
+        width: 300px;
+        padding: 10px;
+        margin: 10px auto;
+        border: .5px solid grey;
+    }
+
+    .text-boxes {
+        margin: 0 auto;
+        margin-left: -60px;
+        width: 300px;
+        border-color: grey;
+        line-height: 20px;
+    }
+
+    /*Portfolio*/
+
+    .portfolio-content {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 200px;
+        padding: 100px;
+        overflow: hidden;
+        height: 1300px;
+    }
+
+    .port-gallery {
+        margin: 0;
+        align-content: center;
+    }
+
+    .container {
+        float: none;
+    }
+
+    .text-block {
+        margin-top: 50px;
+    }
 }
 
-
-.column {
-    width: 200px;
-
-}
+/*/////// Media Querie 768 px */
 
 
-#fname,
-#lname,
-#message {
-    width: 300px;
-    padding: 10px;
-    margin: 10px auto;
-    border: .5px solid grey;
-}
+@media only screen and (max-width: 768px) {
 
-.text-boxes {
-    margin: 0 auto;
-    margin-left: -60px;
-    width: 300px;
-    border-color: grey;
-    line-height: 20px;
-}
+    header {
+        width: 768px;
+    }
+
+    .nav-left {
+        float: left;
+        height: 15px;
+        margin: 0;
+        text-align: center;
+        height: 50px;
+    }
+
+    .nav-right {
+        float: none;
+        padding-top: 30px;
+        background-color: white;
+        text-align: center;
+        margin-right: -20px;
+
+    }
+
+    .aboutme-content {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 600px;
+        padding: 20px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    img {
+        float: left;
+        margin: 20px;
+        width: 200px;
+        margin-left: 40px;
+        width: 200px;
+        height: 200px;
+    }
 
 
+    p {
+        overflow: visible;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
 
-/*Portfolio*/
+    /* Contact Info*/
 
-.portfolio-content {
-    margin: 0;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    width: 200px;
-    padding: 100px;
-    overflow: hidden;
-    height:  1300px;
-}
 
-.port-gallery {
-    margin: 0;
-    align-content: center;
-}
+    h2 {
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 500px;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
 
-.container { 
-    float: none;
-}
+    .contact-info {
 
-.text-block { 
-    margin-top: 50px;
-}
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 650px;
+        padding: 0px;
+        height: 550px;
+        overflow: hidden;
+    }
 
-}
+    .column {
+        width: 200px;
+    }
+
+
+    #fname,
+    #lname,
+    #message {
+        width: 500px;
+        padding: 10px;
+        margin: 10px auto;
+        border: .5px solid grey;
+    }
+
+    .text-boxes {
+        margin: 0 auto;
+        margin-left: 40px;
+        width: 400px;
+        border-color: grey;
+        line-height: 20px;
+    }
+
+    /* Portfolio Content*/
+
+    .portfolio-content {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 650px;
+        padding: 0;
+        overflow: hidden;
+        height: 1000px;
+        align-content: center;
+    }
+
+    .port-gallery {
+        margin: 60px;
+        align-content: center;
+    }
+
+    .container {
+        float: left;
+        width: 30%;
+        margin-left: 60px;
+        align-content: center;
+    }
+
+    .text-block {
+        margin-top: 50px;
+    }
+
+    )
+
+    @media only screen and (max-width: 980px) {
+
+        
