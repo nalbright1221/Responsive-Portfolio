@@ -245,9 +245,46 @@ h3 {
 
 
 @media only screen and (max-width: 768px) {
-    body {}
+
+    header {
+        width: 768px;        
+    }
+
+    .nav-left {
+        float: left;
+        height: 15px;
+        margin: 0;
+        text-align: center;
+        height: 50px;
+    }
+
+    .nav-right {
+        float: left;
+        padding-top: 30px;
+        background-color: white;
+        text-align: right;
+        margin-left: 150px;
+    }
+    .aboutme-content {
+        margin: 20px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 650px;
+        padding: 20px;
+        height: 400px;
+        overflow: hidden;
+
 }
 
+p {
+    width: 560px;
+    border: 0;
+    margin: 0 auto;
+    margin-left: 60px;
+    font-size: 12px;
+    line-height: 20px;
+}
+}
 
 @media only screen and (max-width: 640px) {
 
