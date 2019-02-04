@@ -251,7 +251,7 @@ h3 {
 
 @media only screen and (max-width: 640px) {
 
-
+    /* About me */
     header {
         height: 0px;
     }
@@ -317,4 +317,69 @@ h3 {
         font-size: 12px;
         line-height: 20px;
     }
+
+
+/* Contact page*/
+
+.contact-info {
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 200px;
+    padding: 100px;
+    height: 420px;
+    overflow: hidden;
+}
+
+
+.column {
+    width: 200px;
+
+}
+
+
+#fname,
+#lname,
+#message {
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border: .5px solid grey;
+}
+
+.text-boxes {
+    margin: 0 auto;
+    margin-left: -60px;
+    width: 300px;
+    border-color: grey;
+    line-height: 20px;
+}
+
+
+
+/*Portfolio*/
+
+.portfolio-content {
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 200px;
+    padding: 100px;
+    overflow: hidden;
+    height:  1300px;
+}
+
+.port-gallery {
+    margin: 0;
+    align-content: center;
+}
+
+.container { 
+    float: none;
+}
+
+.text-block { 
+    margin-top: 50px;
+}
+
 }
