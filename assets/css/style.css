@@ -207,6 +207,7 @@ footer {
 
 
 .text-block {
+    margin-top: 50px;
     position: absolute;
     background-color: #4aaaa5;
     color: white;
@@ -234,101 +235,93 @@ h3 {
     text-align: center;
     width: 200px;
 }
+/*/////// Media Querie 980 px */
 
-/* Media Queries 640*************************************************/
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 980px) {
 
-    /* About me */
     header {
-        height: 0px;
+        width: 980px;
     }
 
     .nav-left {
-        float: none;
-        padding: 25px 20px 0px 0px;
+        float: left;
         height: 15px;
-        margin-left: -100px;
-        width: 640px;
+        margin: 0;
+        margin-left: 40px;
         text-align: center;
         height: 50px;
     }
 
     .nav-right {
-        float: none;
-        margin: 0;
-        padding: 5px;
+        float: right;
+        padding-top: 30px;
         background-color: white;
-        width: 660px;
         text-align: center;
-    }
+        margin-right: 40px;
 
-    .nav-block {
-        width: 100%;
     }
-
 
     .aboutme-content {
-        margin: 0;
         margin-top: 150px;
         margin-bottom: 150px;
-        width: 200px;
-        padding: 100px;
-        height: 300px;
+        margin-left: 40px;
+        width: 550px;
+        padding: 0px;
+        height: 400px;
         overflow: hidden;
-
     }
 
+    img {
+        float: left;
+        margin: 20px;
+        width: 200px;
+        margin-left: 40px;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    p {
+        width: 450px;
+        overflow: visible;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* Contact Info*/
+
+
     h2 {
-        margin-top: -80px;
-        margin-left: -60px;
-        width: 300px;
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 410px;
         padding: 0;
         padding-bottom: 5px;
         font-size: 20px;
     }
 
-    img {
-        float: none;
-        margin: 0 auto;
-        width: 200px;
-        margin-left: -60px;
-        width: 200px;
-        height: 200px;
-    }
-
-    p {
-        width: 300px;
-        border: 0;
-        margin: 0 auto;
-        margin-left: -60px;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-
-    /* Contact page*/
-
-
     .contact-info {
-        margin: 0;
+
         margin-top: 150px;
         margin-bottom: 150px;
-        width: 200px;
-        padding: 100px;
-        height: 420px;
+        margin-left: 40px;
+        width: 550px;
+        padding: 0px;
+        height: 600px;
         overflow: hidden;
     }
 
     .column {
         width: 200px;
-
     }
+
 
     #fname,
     #lname,
     #message {
-        width: 300px;
+        width: 400px;
         padding: 10px;
         margin: 10px auto;
         border: .5px solid grey;
@@ -336,22 +329,23 @@ h3 {
 
     .text-boxes {
         margin: 0 auto;
-        margin-left: -60px;
-        width: 300px;
+        margin-left: 40px;
+        width: 400px;
         border-color: grey;
         line-height: 20px;
     }
 
-    /*Portfolio*/
+    /* Portfolio Content*/
 
     .portfolio-content {
-        margin: 0;
         margin-top: 150px;
         margin-bottom: 150px;
-        width: 200px;
-        padding: 100px;
+        margin-left:40px;
+        width: 550px;
+        padding: 0;
         overflow: hidden;
-        height: 1300px;
+        height: 800px;
+        align-content: center;
     }
 
     .port-gallery {
@@ -360,14 +354,16 @@ h3 {
     }
 
     .container {
-        float: none;
+        float: left;
+        width: 30%;
+        margin-left: 60px;
+        align-content: center;
     }
 
     .text-block {
         margin-top: 50px;
     }
 }
-
 /*/////// Media Querie 768 px */
 
 
@@ -414,6 +410,7 @@ h3 {
 
 
     p {
+        width: 520px;
         overflow: visible;
         padding: 10px;
         font-size: 12px;
@@ -425,8 +422,8 @@ h3 {
 
     h2 {
         margin-left: 40px;
-        margin-top: 20px;
-        width: 500px;
+        margin-top: 40px;
+        width: 410px;
         padding: 0;
         padding-bottom: 5px;
         font-size: 20px;
@@ -438,7 +435,7 @@ h3 {
         margin-bottom: 150px;
         width: 650px;
         padding: 0px;
-        height: 550px;
+        height: 600px;
         overflow: hidden;
     }
 
@@ -491,9 +488,282 @@ h3 {
     .text-block {
         margin-top: 50px;
     }
+}
 
-    )
+    
+/* Media Queries 640*************************************************/
 
-    @media only screen and (max-width: 980px) {
-
+@media only screen and (max-width: 640px) {
+    
+    /* About me */
+    header {
+        height: 0px;
+    }
+    
+    .nav-left {
+        float: none;
+        padding: 25px 20px 0px 0px;
+        height: 15px;
+        margin-left: -100px;
+        width: 640px;
+        text-align: center;
+        height: 50px;
+    }
+    
+    .nav-right {
+        float: none;
+        margin: 0;
+        padding: 5px;
+        background-color: white;
+        width: 660px;
+        text-align: center;
+    }
+    
+    .nav-block {
+        width: 100%;
+    }
+    
+    
+    .aboutme-content {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 200px;
+        padding: 100px;
+        height: 300px;
+        overflow: hidden;
         
+    }
+    
+    h2 {
+        margin-top: -80px;
+        margin-left: -60px;
+        width: 300px;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    img {
+        float: none;
+        margin: 0 auto;
+        width: 200px;
+        margin-left: -60px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    p {
+        width: 300px;
+        border: 0;
+        margin: 0 auto;
+        margin-left: -60px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    
+    /* Contact page*/
+    
+    
+    .contact-info {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 200px;
+        padding: 100px;
+        height: 420px;
+        overflow: hidden;
+    }
+    
+    .column {
+        width: 200px;
+        
+    }
+    
+    #fname,
+    #lname,
+    #message {
+        width: 300px;
+        padding: 10px;
+        margin: 10px auto;
+        border: .5px solid grey;
+    }
+    
+    .text-boxes {
+        margin: 0 auto;
+        margin-left: -60px;
+        width: 300px;
+        border-color: grey;
+        line-height: 20px;
+    }
+    
+    /*Portfolio*/
+    
+    .portfolio-content {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 200px;
+        padding: 100px;
+        overflow: hidden;
+        height: 1300px;
+    }
+    
+    .port-gallery {
+        margin: 0;
+        align-content: center;
+    }
+    
+    .container {
+        float: none;
+    }
+    
+    .text-block {
+        margin-top: 50px;
+    }
+}
+
+
+/*Media Queries 425px*************************/
+
+@media only screen and (max-width: 425px) {
+
+    /* About me */
+    header {
+        height: 0px;
+    }
+
+    .nav-left {
+        margin-left: 0;
+        float: none;
+        padding: 25px 20px 0px 0px;
+        height: 15px;
+        width: 425px;
+        text-align: center;
+        height: 50px;
+    }
+
+    .nav-right {
+        float: none;
+        margin: 0;
+        padding: 5px;
+        background-color: white;
+        width: 425px;
+        text-align: center;
+    }
+
+    .nav-block {
+        width: 100%;
+    }
+
+
+    .aboutme-content {
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: 20px;
+        width: 150px;
+        padding: 100px;
+        height: 300px;
+        overflow: hidden;
+
+    }
+
+    h2 {
+        margin-top: -80px;
+        margin-left: -60px;
+        width: 300px;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+
+    img {
+        float: none;
+        margin: 0 auto;
+        width: 200px;
+        margin-left: -60px;
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        float: left;
+        width: 250px;
+        border: 0;
+        margin: 0 auto;
+        margin-left: -70px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+    /* Contact page*/
+
+
+    .contact-info {
+        margin: 0px 20px 0px 20px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 150px;
+        padding: 100px;
+        height: 420px;
+        overflow: hidden;
+    }
+
+    .column {
+        width: 200px;
+
+    }
+
+    #fname,
+    #lname,
+    #message {
+        width: 250px;
+        padding: 10px;
+        margin: 10px auto;
+        border: .5px solid grey;
+    }
+
+    .text-boxes {
+        margin: 0 auto;
+        margin-left: -60px;
+        width: 300px;
+        border-color: grey;
+        line-height: 20px;
+    }
+
+    /*Portfolio*/
+
+    .portfolio-content {
+        float: left;
+        margin: 0px 20px 0px 20px;
+        
+        margin-top: 150px;
+        margin-bottom: 150px;
+        width: 150px;
+        padding: 100px;
+        overflow: hidden;
+        height: 1400px;
+    }
+
+    .port-image{
+    float: none;
+    margin-right: 25px;
+    }
+
+    .port-gallery {
+        margin: -80px;
+        margin-top: 40px;
+        align-content: center;
+    }
+
+    .container {
+        float: none;
+    }
+
+    .text-block {
+        margin-top: 50px;
+    }
+}
